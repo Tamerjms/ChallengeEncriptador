@@ -1,0 +1,95 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body{
+    background-color: #F3F5FC;
+}
+
+header{
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.imagen-logo{
+    width: 180px;
+}
+
+h1{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.texto{
+    background-color: #F3F5FC;
+    border: none;
+    display: inline;
+    max-width: 85%;
+    width: auto;
+    height: 64px;
+    font-size: 50px;
+    text-align: center;
+    padding: 210px 0 210px 0;
+    height: auto;
+}
+
+.ingreso-texto, .resultado {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+.resultado{
+    width: auto;
+    max-width: 90%;
+    height: 640px;
+    border: none;
+    border-radius: 30px;
+    background-color: white;
+    /*display: inline-block;
+    text-align: center;*/
+    padding-top: 100px;
+    display:inline;
+    justify-content: center;
+    align-items: center;
+}
+
+.mensaje-no-encontrado{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.foot{
+    color: #495057;
+    font-size: 20px;
+    font-weight: 1000;
+    padding-inline: 6%;
+}
+
+.botom, .botom-copy{
+    width: 220px;
+    margin: 10px 20px;
+    padding: 20px 0;/*el 15 hace referencia para arriba y para abajo y el cero para los laterales*/
+    font-size: 18px;
+    color: #0A3871;
+    background: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 20px;/*se utiliza para redondear el borde*/
+    /*transition: 1s all;con transition se puede hacer un delay en los efectos que tenga el  boton, por ejemplo si ponemos background solo se aplicara al fondo*/
+    cursor: pointer;
+}
+
+.botom:hover, .botom-copy:hover {
+    background-color: #0A3871;
+    color: white;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: 1000;
+    padding-inline: 6%;
+}
